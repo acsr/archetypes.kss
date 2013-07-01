@@ -6,6 +6,7 @@
 
     <!-- Include command macro definitions -->
     <include package=".commands"/>
+    <include package="Products.CMFCore" />
 
     <browser:page
         for="Products.Archetypes.interfaces.IBaseObject"
